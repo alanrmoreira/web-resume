@@ -2,7 +2,7 @@
   "name": "web-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alanmoreira.github.io/web-resume",
+  "homepage": "https://alanrmoreira.github.io/web-resume",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.13.3",
