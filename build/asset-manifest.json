@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/web-resume/static/css/main.675e9ca1.css",
+    "main.js": "/web-resume/static/js/main.159554c5.js",
+    "static/media/banner-video.ogv": "/web-resume/static/media/banner-video.056c23cd787e7d68c84c.ogv",
+    "static/media/banner-video.mp4": "/web-resume/static/media/banner-video.ac3e0ad999bef7136382.mp4",
+    "static/media/banner-video.gif": "/web-resume/static/media/banner-video.809c76c1e2007f1171ee.gif",
+    "static/media/banner-video.webm": "/web-resume/static/media/banner-video.e05aae8f09c1c349af0f.webm",
+    "static/media/bg-mob.ai": "/web-resume/static/media/bg-mob.75f110e15321678296f1.ai",
+    "static/media/23.png": "/web-resume/static/media/23.52266ad9c986b7b547f7.png",
+    "static/media/banner.jpg": "/web-resume/static/media/banner.c855fcf4d7a360136e4a.jpg",
+    "static/media/unimonte-logo.png": "/web-resume/static/media/unimonte-logo.46d38564abf4f1b879ee.png",
+    "static/media/lss-logo.png": "/web-resume/static/media/lss-logo.9e5ab7eccf0f267ed235.png",
+    "static/media/anhanguera-logo.png": "/web-resume/static/media/anhanguera-logo.05bd85a696addc95f443.png",
+    "static/media/positivo-logo.png": "/web-resume/static/media/positivo-logo.84a7e697acadfa646fb1.png",
+    "static/media/sait-logo.png": "/web-resume/static/media/sait-logo.471ee00a81f9fd002dbc.png",
+    "static/media/psm1-logo.png": "/web-resume/static/media/psm1-logo.4c054fdcd64082546885.png",
+    "static/media/bg-mob.svg": "/web-resume/static/media/bg-mob.0513143dd1ca473feddf.svg",
+    "index.html": "/web-resume/index.html",
+    "static/media/bg.svg": "/web-resume/static/media/bg.d35ba04c64f2e7a9ce1f.svg",
+    "static/media/favicon.svg": "/web-resume/static/media/favicon.d11c1921524e8311b308.svg",
+    "static/media/robots.txt": "/web-resume/static/media/robots.eb430eec2a9eb6c5d642.txt",
+    "main.675e9ca1.css.map": "/web-resume/static/css/main.675e9ca1.css.map",
+    "main.159554c5.js.map": "/web-resume/static/js/main.159554c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.675e9ca1.css",
+    "static/js/main.159554c5.js"
+  ]
+}
