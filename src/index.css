@@ -1,6 +1,7 @@
 body {
-  margin: 0;
   font-family: 'roboto';
+  background-image: url('assets/bg.svg');
+
 }
 
 * {
@@ -13,6 +14,8 @@ body {
 
 .inner-section-container {
   padding: 1rem;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .professional-experience-company-name {
@@ -32,11 +35,20 @@ body {
   align-items: center;
 }
 
+.cardLink {
+  text-decoration: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+}
+
 .single-card {
   margin: 1rem;
 }
 
-.professional-experience-responsabilites-list li {
+.professional-experience-responsibilities-list li {
   margin-bottom: 1rem;
 }
 
@@ -51,9 +63,176 @@ body {
   margin: 1rem 0 1rem 0;
 }
 
-.professional-experience-logo{
+.professional-experience-logo {
   width: 4rem;
   height: 4rem;
   margin-right: 1rem;
 
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+
+}
+
+#form-frame {
+  min-width: 20rem;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+#info-frame-lg{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+#info-frame-sm {
+  display: none;
+}
+.typed-line {
+  position: absolute;
+  margin-left: 0 auto;
+  width: 100%;
+  font-family: "Agdasima", sans-serif;
+  text-align: center;
+  color: #c9fb00;
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.banner-overlay {
+  background-color: #000;
+  width: 100%;
+  height: 40rem;
+  opacity: 70%;
+  position: absolute;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+  width: 95%;
+  height: 2rem;
+}
+
+#message {
+  height: 4rem;
+}
+
+#main-banner {
+  background-color: #1976d2;
+  background-image: url("assets/banner-video.gif");
+  background-position: center;
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#footer {
+  background-color: #1976d2;
+  padding: 2rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.back-to-top-button {
+  z-index: 10000;
+}
+
+.navbar-mobile-title {
+  display: none;
+}
+.blue-slice{
+  width: 100%;
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.form-info-list {
+  background-color: transparent !important;
+}
+
+.backToTop {
+  z-index: 1;
+}
+
+@media screen and (max-width:1200px) {
+  .inner-section-container {
+    padding: 2rem;
+  }
+
+  #main-banner {
+    height: 20rem;
+  }
+
+  .form-info-list li {
+    float: left !important;
+  }
+
+  .banner-overlay {
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width:704px) {
+  #info-frame-lg {
+    display: none;
+  }
+
+  #info-frame-sm {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    
+  }
+  .phone-avatar{
+    float: left;
+  }
+  .phone-sm{
+    max-width: 11rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .navbar-mobile-title {
+    display: block;
+  }
+
+  body {
+    background-image: url('assets/bg-mob.svg');
+  }
+
+
+}
+
+@media screen and (max-width:400px) {
+  #main-banner {
+    height: 15rem;
+  }
+
+  .form-info-list li {
+    float: left !important;
+  }
+
+  .banner-overlay {
+    height: 15rem;
+  }
+
+  body {
+    background-image: url('assets/bg-mob.svg');
+  }
 }
