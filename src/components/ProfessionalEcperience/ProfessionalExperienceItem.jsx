@@ -1,4 +1,3 @@
-// src/components/ProfessionalEcperience/ProfessionalExperienceItem.jsx
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
@@ -17,6 +16,62 @@ export default function ProfessionalExperienceItem() {
 
     return (
         <>
+            <div id="xp-1">
+                <ProfessionalHeading name="Nexxt Ideas" length="Mar 2025 - Current" logo="logo-nexxt.png" />
+
+                <Box sx={{ width: '100%', typography: 'body1' }}>
+                    <TabContext value={valueRethink}>
+                        <Box sx={{ borderBottom: 0.3, borderColor: 'divider' }}>
+                            <TabList onChange={(_, v) => setValueRethink(v)} aria-label="lab API tabs example">
+                                <Tab label="Responsibilities" value="1" />
+                                <Tab label="Achievements" value="2" />
+                            </TabList>
+                        </Box>
+                        <TabPanel value="1">
+                            <p>Allocated for:
+                                <a href="https://decorepair.com/" target="_blank"> Deco Repair</a>,
+                                <a href="https://connectsport.ca/" target="_blank"> Connect Sport</a>,
+                                <a href="https://athletearena.com/" target="_blank"> Athlete Arena</a>
+                            </p>
+
+                            <ul className="professional-experience-responsibilities-list">
+                                <li>Develop and maintain backend services using Node.js, TypeScript, Laravel, and PHP-FPM.</li>
+                                <li>Design, optimize, and refactor complex business flows such as subscription billing, payment processing, timelines, feeds, and content visibility rules.</li>
+                                <li>Implement and maintain CI/CD pipelines using GitHub Actions, AWS CodeBuild, and AWS CodePipeline.</li>
+                                <li>Architect and manage Docker-based environments, including Nginx, multi-stage builds, supervisors, and container orchestration.</li>
+                                <li>Configure cloud infrastructure using AWS services such as EC2, Load Balancer with HTTPS, Route 53, EFS, and secure environment variables.</li>
+                                <li>Customize and extend large platforms, implementing themes, plugins, core modifications, and automated installation scripts.</li>
+                                <li>Build advanced SQL reports and queries using MariaDB and PostgreSQL for analytics, user behavior, learning metrics, and performance insights.</li>
+                                <li>Improve performance and code quality by reviewing critical services, fixing inconsistencies, and enforcing architectural standards.</li>
+                                <li>Integrate frontend applications with modern tooling such as Vite, hot module reload, and optimized build processes.</li>
+                                <li>Collaborate in architectural decisions to ensure scalability, maintainability, and clean system design.</li>
+                                <li>Perform detailed code reviews and contribute to best practice guidelines across backend and frontend teams.</li>
+                                <li>Troubleshoot and resolve issues in production environments, ensuring stable deployments and reliable user experiences.</li>
+                            </ul>
+                            <br />
+                            <p>Node.js, TypeScript, Laravel, PHP-FPM, React, Vite, Docker, Nginx, AWS (EC2, ALB, Route 53, EFS, CodeBuild, CodePipeline), GitHub Actions, MongoDB, PostgreSQL, MariaDB, Stripe, Playwright, CI/CD, Linux, SCRUM, Kanban.</p>
+                        </TabPanel>
+                        <TabPanel value="2">
+                            <ul className="professional-experience-responsibilities-list">
+                                <li>Achievements:</li>
+                                <ul>
+                                    <li>Implemented optimized backend architectures improving performance, scalability and consistency across multiple services.</li>
+                                    <li>Refactored and stabilized complex billing and subscription flows, reducing failures and ensuring reliable payment processing.</li>
+                                    <li>Designed and deployed CI/CD pipelines with GitHub Actions and AWS services, enabling fully automated and repeatable deployments.</li>
+                                    <li>Developed custom platform extensions, themes, plugins and automated installation processes for large-scale LMS environments.</li>
+                                    <li>Created advanced SQL reports and analytics dashboards, improving visibility of user behavior, learning metrics and operational insights.</li>
+                                    <li>Improved overall code quality by reviewing critical services, standardizing architecture patterns and eliminating inconsistencies.</li>
+                                    <li>Implemented Dockerized environments with Nginx, multi-stage builds and optimized container performance.</li>
+                                    <li>Resolved production issues by diagnosing infrastructure, database and application-level bottlenecks.</li>
+                                    <li>Enhanced frontend development workflow using Vite, hot module reload and streamlined integration with backend APIs.</li>
+                                    <li>Collaborated on architectural decisions that strengthened maintainability, reliability and long-term system evolution.</li>
+                                </ul>
+                            </ul>
+                        </TabPanel>
+                    </TabContext>
+                </Box>
+            </div>
+
             <div id="xp-1">
                 <ProfessionalHeading name="Rethink Tecnologia" length="Mar 2023 - Current" logo="rethink-logo.jpg" />
 
